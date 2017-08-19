@@ -1,24 +1,79 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
+<html lang="en">
 
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="portfolio.html">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="index.html">Link</a>
-  </li>
-</ul>
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+  <title>Ankita Shah - Contact</title>
+</head>
+<!-- trying to make a horizontal site : don't like columns in my site :) -->
+
+<body>
+  <h1 class="logo">Ankita Shah</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About Me </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <div class="media">
+   <section class="main-section">
+      <form id="contact-form">
+        <!--every row / area is a list item -->
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+  <div class="card">
+    <div class="card-block main-section">
+      <h3 class="card-title">Connect with Me</h3>
+
+      <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+      <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+      <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-footer footer ">
+      Copyright &copy; 2016 Ankita Shah
+    </div>
+  </div>
 </body>
+
 </html>
