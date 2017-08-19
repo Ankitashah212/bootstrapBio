@@ -4,26 +4,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
     crossorigin="anonymous">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
   <title>Ankita Shah - Portfolio</title>
 </head>
+<!-- trying to make a horizontal site : don't like columns in my site :) -->
 
 <body>
-  <div class="container">
-  
-  <h3>Centered Pills</h3>
-  <ul class="nav nav-pills nav-justified">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="index.html">Menu 1</a></li>
-    <li><a href="portfolio.html">Menu 2</a></li>
-    <li><a href="contact.html">Menu 3</a></li>
-  </ul>
-</div>
-  <nav class="navbar fixed-bottom navbar-inverse bg-primary">
-    <a class="navbar-brand" href="#">Fixed bottom</a>
+  <h1 class="logo">Ankita Shah</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About Me </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+
   </nav>
+
+  <div class="media">
+    <div class="media-body main-section">
+
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-block main-section">
+      <h3 class="card-title">Connect with Me</h3>
+
+      <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+      <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+      <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-footer footer ">
+      Copyright &copy; 2016 Ankita Shah
+    </div>
+  </div>
 </body>
 
 </html>
