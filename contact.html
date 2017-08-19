@@ -33,31 +33,58 @@
     </div>
 
   </nav>
+<!-- borrowed from https://bootsnipp.com/snippets/4lW12 , trying plug and play and learning to customize  -->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">Need Help</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Just Saying Hello</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-email " id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</div>
 
-  <div class="media">
-   <section class="main-section">
-      <form id="contact-form">
-        <!--every row / area is a list item -->
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
-
-    </section>
-
-  </div>
   <div class="card">
     <div class="card-block main-section">
       <h3 class="card-title">Connect with Me</h3>
